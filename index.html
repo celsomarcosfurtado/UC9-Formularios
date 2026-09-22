@@ -12,21 +12,30 @@
     <form action="" method="get">
 
         <fieldset>
-            <label for="nomeUsuario">Nome do usuário:</label>
+            <label for="nomeUsuarioId">Nome do usuário:</label>
             <input 
                 type="text"
                 name="nomeUsuario" 
                 id="nomeUsuarioId" required>
             <br>
-            <label for="idadeUsuario">Idade do usuário:</label>
+            <label for="idadeUsuarioId">Idade do usuário:</label>
             <input 
                 type="number" 
                 name="idadeUsuario" 
                 id="idadeUsuarioId"
-                min="18" max="120">
+                min="12" max="100" required>
             <br>
-            <label for="dtNascimento">Data de nascimento:</label>
+            <label for="dtNascimentoId">Data de nascimento:</label>
             <input type="date" name="dtNascimento" id="dtNascimentoId">
+            <br>
+            <label for="emailUsuarioId">E-mail:</label>
+            <input type="email" name="emailUsuario" id="emailUsuarioId" required>
+            <br>
+            <label for="foneUsuarioId">Telefone:</label>
+            <input type="tel" name="foneUsuario" id="foneUsuarioId">
+            <br>
+            <label for="fotoUsuarioId">Foto do cliente:</label>
+            <input type="file" name="fotoUsuario" id="fotoUsuarioId" accept="image/*">
         </fieldset>
         
 
