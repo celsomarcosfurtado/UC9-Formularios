@@ -88,6 +88,37 @@
             <input type="text" name="usuarioCidade" id="usuarioCidadeId">
         </fieldset>
 
+        <fieldset>
+            <legend>Hábitos:</legend>
+            <p>Marque as suas redes sociais</p>
+            <input type="checkbox" name="redesSociais" id="instagramId" value="instagram">
+            <label for="instagramId">Instagram</label>
+            <input type="checkbox" name="redesSociais" id="facebookId" value="facebook">
+            <label for="facebookId">Facebook</label>
+            <input type="checkbox" name="redesSociais" id="xId" value="x">
+            <label for="xId">X</label>
+            <input type="checkbox" name="redesSociais" id="youtubeId" value="youtube">
+            <label for="youtubeId">YouTube</label>
+            <input type="checkbox" name="redesSociais" id="linkedinId" value="linkedin">
+            <label for="linkedinId">LinkedIn</label>
+            <br>
+            <label for="estiloMusicalId">Estilo musical?</label>
+            <input type="text" name="estiloMusical" id="estiloMusicalId" list="estilosMusicais">
+            <datalist id="estilosMusicais">
+                <option value="Rock">
+                <option value="Pop">
+                <option value="Samba">
+                <option value="Pagode">
+                <option value="Eletrônico">
+                <option value="Forró">
+                <option value="Funk">
+                <option value="MPB">
+            </datalist>
+            <br>
+            <label for="corFavoritaId">Cor favorita?</label>
+            <input type="color" name="corFavorita" id="corFavoritaId">
+        </fieldset>
+
         <button type="submit">Enviar dados</button>
         <button type="reset">Limpar</button>
 
@@ -96,3 +127,6 @@
 </body>
 
 </html>
+
+
+http://127.0.0.1:5501/index.html?nomeUsuario=Celso&idadeUsuario=52&dtNascimento=51974-01-23&emailUsuario=a%40a&foneUsuario=&fotoUsuario=login.png&radioPerfil=m&estadoCivil=estavel&estados=PE&usuarioCidade=Recife&redesSociais=instagram&redesSociais=facebook&redesSociais=youtube&redesSociais=linkedin&estiloMusical=Rock&corFavorita=%238914d7
